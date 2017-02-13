@@ -6,5 +6,5 @@
     return this._text
   }
   exports.Note = Note;
-  exports.getText = this.getText;
+  exports.getText = Note.getText; //Could also be this.getText;
 })(this);
